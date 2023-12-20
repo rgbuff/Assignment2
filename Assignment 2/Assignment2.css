@@ -1,0 +1,23 @@
+h2{
+    font-weight: 900;
+    color: #875600;
+    text-align: center;
+}
+body{
+    background-color: #FBE08D;
+}
+
+img {
+    width:100%;
+    height: auto;
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 2s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
